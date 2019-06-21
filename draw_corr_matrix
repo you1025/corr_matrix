@@ -2,7 +2,7 @@
 # df.data: 対処うデータ(数値項目以外が含まれる場合は自動的に除外される)
 # ordered_cols: 項目の並び順を指定(未指定の場合は df.data の並び順が適用される)
 # as.data.frame: (デフォルト=F) True の場合は DataFrame が返される
-# f.corr: 相関係数を算出する関数
+# f.corr: 相関係数を算出する関数を指定(デフォルトは Pearson の積率相関係数)
 draw_corr_matrix <- function(df.data, ordered_cols = NULL, as.data.frame = F, f.corr = stats::cor) {
   library(tidyverse)
 
