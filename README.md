@@ -1,4 +1,4 @@
-# corr_matrix
+# draw_corr_matrix
 
 ## 使い方
 
