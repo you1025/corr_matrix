@@ -13,6 +13,8 @@ iris %>%
   draw_corr_matrix()
 ```
 
+![Pearson](https://github.com/you1025/corr_matrix/blob/images/images/pearson_corr_matrix.png)
+
 #### DataFrame の取得
 
 ```
@@ -39,3 +41,5 @@ iris %>%
 iris %>%
   draw_corr_matrix(f.corr = function(df) { minerva::mine(df)$MIC })
 ```
+
+![MIC](https://github.com/you1025/corr_matrix/blob/images/images/mic_corr_matrix.png)
